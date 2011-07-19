@@ -18,6 +18,10 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
+    <ru.denivip.android.widgets.OpenxAdView
+              android:id="@+id/adview"
+              android:layout_width="88px"
+              android:layout_height="31px" />
     <ListView android:layout_width="match_parent"
               android:id="@+id/contactList"
               android:layout_height="wrap_content"
