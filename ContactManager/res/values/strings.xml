@@ -30,4 +30,5 @@
     <string name="showInvisible">Show Invisible Contacts (Only)</string>
     <string name="targetAccountLabel">Target Account</string>
     <string name="undefinedTypeLabel">(Undefined)</string>
+    <string name="openxDeliveryUrl">openx.local/openx-now/www/delivery</string>
 </resources>

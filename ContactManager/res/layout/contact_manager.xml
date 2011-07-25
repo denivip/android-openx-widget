@@ -15,13 +15,16 @@
 -->
 
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  xmlns:ox="http://denivip.ru/schemas/android/openx/0.1"
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
     <ru.denivip.android.widgets.OpenxAdView
               android:id="@+id/adview"
               android:layout_width="88px"
-              android:layout_height="31px" />
+              android:layout_height="31px" 
+              ox:delivery_url="@string/openxDeliveryUrl"
+              ox:zone_id="3" />
     <ListView android:layout_width="match_parent"
               android:id="@+id/contactList"
               android:layout_height="wrap_content"
